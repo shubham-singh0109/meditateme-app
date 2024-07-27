@@ -1,5 +1,7 @@
 # MeditateMe App
 
+![Alt text](assets/meditation-images/logo.png)
+
 ## Overview
 The Meditation App is a cross-platform application built with React Native, designed to provide users with a variety of meditation exercises and tools. It is available for both iOS and Android platforms, helping users incorporate mindfulness and relaxation practices into their daily lives.
 
