@@ -63,6 +63,7 @@ npm start
 npm run ios
 # or
 npm run android
+```
 
 ## Contributing
 
