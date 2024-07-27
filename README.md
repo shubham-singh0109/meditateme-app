@@ -64,6 +64,11 @@ npm run ios
 # or
 npm run android
 
+## Contributing
+
+- Contributions are always welcome!
+- Fork the repository and build your idea.
+
 
 
 
