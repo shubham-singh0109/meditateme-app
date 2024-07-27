@@ -38,7 +38,17 @@ const Page = () => {
                     ),
                 }}
             />
+            <Tabs.Screen
+                name="profile"
+                options={{
+                    tabBarLabel: "Profile",
+                    tabBarIcon: ({ color }) => (
+                        <Entypo name="user" size={24} color={color} />
+                    ),
+                }}
+            />
         </Tabs>
+            
     );
 };
 

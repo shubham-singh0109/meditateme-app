@@ -11,13 +11,12 @@ import {
   TouchableOpacity, 
   View 
 } from 'react-native';
-
 import app from './../firebaseConfig';
 import {getAuth, signInWithEmailAndPassword, 
   createUserWithEmailAndPassword} from 'firebase/auth'
 import { router } from 'expo-router';
+import AppGradient from "@/components/AppGradient";
 
-import beachImage from "@/assets/meditation-images/beach.webp";
 import meditationIcon from "@/assets/meditation-images/logo.png"; 
 
 export default function App() {
@@ -45,13 +44,14 @@ export default function App() {
   return (
     
         
-    <View style={styles.container}>
-    <Text style={{color: 'white', marginBottom: 20}}>
+    <View className="flex-1">
+      <AppGradient colors={["#161b2e", "#0a4d4a", "#766e67"]}>
+    <Text style={{color: 'white', textAlign:'center', marginTop: 50}}>
       Register or Login with Email
     </Text>
       <Image
         source={meditationIcon} // Add your image source here
-        style={{ width:280, height:238, alignSelf: 'center', marginBottom:90 }}
+        style={{ width:280, height:238, alignSelf: 'center', marginTop:90, marginBottom:90 }}
       />
       <StatusBar style='auto'/>
       <TextInput 
@@ -76,8 +76,8 @@ export default function App() {
       ) : (
         <Text style={{color: 'white'}}>Login</Text>
       )}
-      </TouchableOpacity>
-      
+      </TouchableOpacity> 
+      </AppGradient>
     </View>
     
   );
@@ -101,11 +101,5 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     backgroundColor: '#f5f5f5',
     alignSelf:'center',
-  },
-  container: {
-    flex: 1,
-    backgroundColor:'#505a5a',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });

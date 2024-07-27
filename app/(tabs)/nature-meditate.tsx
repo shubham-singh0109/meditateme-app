@@ -15,8 +15,6 @@ import MEDITATION_IMAGES from "@/constants/meditation-images";
 import { MEDITATION_DATA, MeditationType } from "@/constants/MeditationData";
 import AppGradient from "@/components/AppGradient";
 
-import { Ionicons } from '@expo/vector-icons';
-
 const Page = () => {
     return (
         
@@ -25,10 +23,9 @@ const Page = () => {
                 // Background Linear Gradient
                 colors={["#161b2e", "#0a4d4a", "#766e67"]}
             >
-                <Ionicons name="chevron-back-circle-outline" size={55} color="white" onPress={()=> router.push("/login")} />
                 <View className="mb-6">
                     <Text className="text-gray-200 mb-3 font-bold text-4xl text-left">
-                        Welcome Jisu
+                        Welcome🙏🏼
                     </Text>
                     <Text className="text-indigo-100 text-xl font-medium">
                         Start your meditation practice today
