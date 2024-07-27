@@ -5,7 +5,7 @@ The Meditation App is a cross-platform application built with React Native, desi
 
 ## Features
 - Cross-Platform Support: Available on both iOS and Android.
-- Authentication $ User Management: Firebase to secure the application and user details, and also track record of the users for upscaling.
+- Authentication $ User Management: Secure the application and user details, and also track record of the users for upscaling.
 - Guided Meditations: A selection of guided meditation sessions to help users focus and relax.
 - Breathing Exercises: Interactive breathing exercises to aid in relaxation and stress relief.
 - Progress Tracking: Track meditation sessions and progress over time.
