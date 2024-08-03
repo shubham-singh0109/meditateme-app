@@ -11,10 +11,10 @@ https://www.youtube.com/watch?v=iTdZQyYmg4g
 
 ## Prerequisites
 
-NodeJS: v20.15.1
-XCode: iOS Simulator
-Android Studio: Android Simulator
-Firebase: Backend (Authentication and User Management)
+- NodeJS: v20.15.1
+- XCode: iOS Simulator
+- Android Studio: Android Simulator
+- Firebase: Backend (Authentication and User Management)
 
 ## Technology Used
 
