@@ -39,6 +39,7 @@ Go to the project directory
 
 ```bash
   cd meditateme-app
+```
 
 ## Firebase Setup
 
