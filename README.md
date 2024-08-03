@@ -47,6 +47,7 @@ Create a project on firebase and setup the configuration for the user authentica
 
 ## Create a .env and add your configured firebase API keys
 
+```bash
   REACT_APP_FIREBASE_API_KEY=<type>
   REACT_APP_FIREBASE_AUTH_DOMAIN=<type>
   REACT_APP_FIREBASE_PROJECT_ID=<type>
@@ -54,6 +55,7 @@ Create a project on firebase and setup the configuration for the user authentica
   REACT_APP_FIREBASE_MESSAGING_SENDER_ID=<type>
   REACT_APP_FIREBASE_APP_ID=<type>
   REACT_APP_FIREBASE_MEASUREMENT_ID=<type>
+```
 
 ## Install Dependencies
 
