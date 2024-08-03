@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=iTdZQyYmg4g
 
 ## Features
 - Meditate Me is a cross-platform mobile application designed to help users find tranquility and mindfulness through guided meditation. 
-- Available for both iOS and Android, Meditate Me offers a range of features aimed at enhancing mental well-being and promoting a balanced lifestyle.
+- Available for both iOS and Android, offers a range of features aimed at enhancing mental well-being and promoting a balanced lifestyle.
 
 ## Prerequisites
 
