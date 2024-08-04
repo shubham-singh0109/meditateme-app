@@ -1,4 +1,4 @@
-# Meditate Me
+# MeditateMe
 
 ## Demo
 https://www.youtube.com/watch?v=iTdZQyYmg4g
